@@ -266,6 +266,25 @@ plt.title('Pie Plot: Regional Sales Distribution')
 plt.axis('equal') # Ensures the pie is circular
 plt.show()
 
+------------ scatter
+
+import matplotlib.pyplot as plt
+
+# Sample data
+x = [5, 7, 8, 10, 12, 15, 18, 20]
+y = [3, 5, 7, 6, 8, 10, 12, 14]
+
+# Create scatter plot
+plt.figure(figsize=(8, 5))
+plt.scatter(x, y)
+
+# Titles and labels
+plt.title("Scatter Plot Example")
+plt.xlabel("X Values")
+plt.ylabel("Y Values")
+
+# Show plot
+plt.show()
 
 ------Q10
 
